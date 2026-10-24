@@ -1,0 +1,14 @@
+{
+	"name": "mouse-on",
+	"private": true,
+	"license": "MIT",
+	"scripts": {
+		"test": "vitest run",
+		"lint": "biome check right-click-rights.user.js right-click-rights.test.mjs package.json"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.6.2",
+		"jsdom": "^30.1.3",
+		"vitest": "^5.0.5"
+	}
+}
